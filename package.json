@@ -8,8 +8,15 @@
     "start": "node ."
   },
   "dependencies": {
-    "express":"4.17.2"
+    "express": "4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "prettier": "^2.5.1"
   },
   "author": "Idan Magled",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
